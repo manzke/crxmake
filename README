@@ -1,0 +1,12 @@
+Little Java Project, which is able to write Chrome Extensions. At the moment you can use the classes
+and use it in your project or use the Console Version.
+
+	java de.devsurf.chrome.extensions.ConsoleCrxCreator yourapp.crx yourapp.zip yourapp.pem
+
+
+If packaging your Extension in your Jave Web App, extend your "web.xml" to send the right Mime Type.
+
+	<mime-mapping>
+		<extension>crx</extension>
+		<mime-type>application/x-chrome-extension</mime-type>
+	</mime-mapping>

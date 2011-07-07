@@ -15,7 +15,6 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.RSAPublicKeySpec;
 
 import sun.security.rsa.RSAPrivateCrtKeyImpl;
-import de.devsurf.chrome.extensions.CrxWriter;
 
 public class ConsoleCrxCreator {
 	public static final String ALGORITHMN_ENCRYPT = "RSA";
