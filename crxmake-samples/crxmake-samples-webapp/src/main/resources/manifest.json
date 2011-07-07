@@ -1,0 +1,15 @@
+{
+  // Required
+  "name": "crxmake sample extension",
+  "description": "crxmake sample extension",
+  "version": "0.0.1",
+  
+  "background_page" : "background.html",
+  
+  "omnibox": { "keyword" : "crxmake" }, // can be used like a protocol handler for suggestions ... damn cool
+
+  "permissions": [
+	  "notifications",
+	  "background"
+	]
+}
